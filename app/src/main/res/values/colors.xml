@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#3F51B5</color>
+    <color name="color_primary_dark">#303F9F</color>
+    <color name="color_accent">#FF4081</color>
+
+    <!--Background-->
+    <color name="background_separator">#ababab</color>
+    <color name="background_profile">#666666</color>
+    <color name="background_user_info_txt">#00fafafa</color>
+    <color name="background_toolbar">#6e6e6e</color>
+    <color name="background_wrong_info">#644f4f</color>
+    <color name="background_accept_info">#485b44</color>
+    <color name="background_white">#ffffff</color>
+    <color name="background_blue">#6495ed</color>
+
+    <!--text colors-->
+    <color name="txt_profile">#d7d7d7</color>
+    <color name="txt_user_info">#030303</color>
+    <color name="txt_login_main">#cf3c18</color>
+</resources>

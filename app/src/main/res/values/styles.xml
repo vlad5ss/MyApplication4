@@ -1,0 +1,100 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!--Text Style-->
+
+<style name="text">
+<item name="android:textStyle">normal</item>
+<item name="android:fontFamily">sans-serif-condensed</item>
+</style>
+<style name="text.profile">
+<item name="android:textColor">@color/txt_profile</item>
+</style>
+<style name="text.user_info">
+<item name="android:textColor">@color/txt_user_info</item>
+<item name="android:textSize">@dimen/font_size_18</item>
+</style>
+
+    <!-- Information container -->
+    <style name="add_first_place">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/spacing_72</item>
+        <item name="android:layout_marginTop">@dimen/spacing_24</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+    <style name="icon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="icon_little">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_weight">0.12</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="icon.left">
+        <item name="android:layout_marginLeft">@dimen/spacing_8</item>
+    </style>
+    <style name="icon_little.left_little">
+        <item name="android:layout_marginLeft">@dimen/spacing_4</item>
+    </style>
+
+    <style name="icon.right">
+        <item name="android:layout_marginRight">@dimen/spacing_16</item>
+    </style>
+
+    <!--InputTextEdits-->
+  <style name="input_text_layout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_16</item>
+    </style>
+    <style name="edit_text" parent="@style/text.user_info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/spacing_72</item>
+        <item name="android:focusable">true</item>
+        <item name="android:enabled">true</item>
+    </style>
+    <style name="edit_text.origin">
+        <item name="android:hint">@string/hint_etorigin</item>
+    </style>
+    <style name="edit_text.distance">
+        <item name="android:hint">@string/hint_edditdistance</item>
+    </style>
+    <!--Separator-->
+    <style name="separator_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_8</item>
+        <item name="android:background">@color/txt_user_info</item>
+    </style>
+    <style name="separator_vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/background_separator</item>
+    </style>
+
+
+
+</resources>

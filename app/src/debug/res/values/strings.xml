@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_maps">Map</string>
+    <!--EditText's hints-->
+    <string name="hint_etorigin">Please enter original adress</string>
+    <string name="hint_edditdistance">Please enter distination</string>
+</resources>
